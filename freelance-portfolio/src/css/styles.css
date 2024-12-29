@@ -422,3 +422,36 @@ p {
 .cta-button {
     font-weight: 500;
 }
+
+.about-section {
+    padding: 5rem 0;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.section-title {
+    margin-bottom: 2rem;
+}
+
+.about-description {
+    margin-bottom: 3rem;
+    line-height: 1.6;
+}
+
+.skills-title {
+    margin-bottom: 1.5rem;
+}
+
+.skills-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.skill-item {
+    padding: 0.5rem 0;
+}
